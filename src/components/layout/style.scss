@@ -1,0 +1,15 @@
+@import "../../display/style/variables";
+
+.header {
+  height: 100vh;
+  padding: $padding1;
+  position: fixed;
+  width: 140px;
+  .header-logo {
+    height: 70px;
+  }
+  .header-links {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

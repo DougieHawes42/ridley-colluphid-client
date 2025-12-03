@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "futura";
+  src: url("../fonts/FuturaPTMedium.otf");
+}
+
+@mixin centred {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+$colour1: #f8f8f8;
+$colour2: #3b2f2f;
+
+$font1: "futura";
+
+$font-size1: 42px;
+$font-size2: 28px;
+$font-size3: 14px;
+
+$x-padding1: 14px;
+$y-padding1: 14px;
+$padding1: $y-padding1 $x-padding1;
