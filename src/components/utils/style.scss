@@ -5,4 +5,33 @@
   font-family: $font1;
   font-size: $font-size2;
   padding-top: $y-padding1;
+  text-transform: capitalize;
+}
+
+.route {
+  padding-left: $header-width;
+  padding-right: $x-padding1;
+  .route-title-box {
+    .route-title {
+      font-size: $font-size1;
+    }
+  }
+}
+
+.route1 {
+  .route1-title-box {
+    .route1-title {
+      text-align: right;
+      text-transform: capitalize;
+    }
+  }
+}
+
+.route2 {
+  .route2-title-box {
+    .route2-title {
+      margin-left: 50%;
+      transform: translateX(-25%);
+    }
+  }
 }
